@@ -21,7 +21,8 @@
     "include-all": "^1.0.0",
     "rc": "1.0.1",
     "sails": "~0.12.13",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-mongo": "^0.12.2"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -36,6 +37,8 @@
   "author": "jm",
   "license": "",
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "sails-factory": "^0.4.0",
+    "supertest": "^3.0.0"
   }
 }
