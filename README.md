@@ -1,3 +1,3 @@
-# sails-demo
+# Sails twitter clone
 
-a [Sails](http://sailsjs.org) application
+A simple twitter clone created with Sails.js and Angular.js

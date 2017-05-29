@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('login').controller('LoginCtrl',
+angular.module('auth').controller('LoginCtrl',
   ['$scope', '$rootScope', 'AuthService',
   function ($scope, $rootScope, AuthService) {
 
