@@ -1,10 +1,10 @@
 module.exports = {
   attributes: {
-    first_name: {
+    firstName: {
       type: 'string',
       required: true
     },
-    last_name: {
+    lastName: {
       type: 'string'
     },
     username: {
@@ -18,7 +18,14 @@ module.exports = {
     bio: {
       type: 'string'
     },
-    posts: { collection: 'Post' },
+    posts: {
+      collection: 'post',
+      via: 'user'
+    },
+
+    fullName: function (){
+      return this.firstName + ' ' + this.lastName;
+    }
 
   }
 }
